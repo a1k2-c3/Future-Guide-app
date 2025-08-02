@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "futureguide",
+    "slug": "futureguide",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff",
+        "versionCode": 2   
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.jayasri1171.futureguide"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "42c8f04f-5470-4d63-8183-065f7a40efa6"
+      }
+    },
+    "owner": "jayasri1171",
+    "runtimeVersion": "1.0.1",
+
+    "updates": {
+      "url": "https://u.expo.dev/42c8f04f-5470-4d63-8183-065f7a40efa6",
+      "enabled": true,
+      "fallbackToCacheTimeout": 0
+    }
+  }
+}
